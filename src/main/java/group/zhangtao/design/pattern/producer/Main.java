@@ -1,6 +1,4 @@
-package group.zhangtao.design.pattern.productor;
-
-import sun.nio.ch.ThreadPool;
+package group.zhangtao.design.pattern.producer;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -26,7 +24,7 @@ public class Main {
                     poolNumber.getAndIncrement() +
                     "-thread-";
         }
-
+        @Override
         public Thread newThread(Runnable r) {
             Thread t = new Thread(group, r,
                     namePrefix + threadNumber.getAndIncrement(),
@@ -69,9 +67,10 @@ public class Main {
             threadPool.execute(thread);
         }
 
-        Thread.sleep(1000*1000);
-        controllers.forEach(i->{
-            i.stop();
-        });
+        Thread.sleep(1000*5);
+        threadPool.shutdown();
+        controllers.forEach(i-> i.stop());
+        threadPool.awaitTermination(Integer.MAX_VALUE,TimeUnit.DAYS);
+        System.out.println("end!");
     }
 }

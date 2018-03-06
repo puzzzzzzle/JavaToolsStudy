@@ -8,6 +8,8 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class HttpTest {
+    private String host = "www.importnew.com/21388.html\r\n";
+
     public static void main(String[] args) {
         new HttpTest().urlHttp();
         System.out.println("++++++++++++++++++");

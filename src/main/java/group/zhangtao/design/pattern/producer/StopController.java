@@ -1,4 +1,4 @@
-package group.zhangtao.design.pattern.productor;
+package group.zhangtao.design.pattern.producer;
 
 public interface StopController {
     void stop();
