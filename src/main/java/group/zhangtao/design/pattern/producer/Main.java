@@ -43,7 +43,6 @@ public class Main {
         int producerCount = 100;
 //        BlockingDeque<Runnable> workingQueue = new LinkedBlockingQueue<>(consumerCount+producerCount);
         BlockingQueue workingQueue = new SynchronousQueue();
-        List<StopController> controllers = new LinkedList<>();
         ThreadPoolExecutor threadPool = new ThreadPoolExecutor(
                 4,
                 consumerCount + producerCount,
@@ -58,18 +57,15 @@ public class Main {
 
         for(int i=0;i<producerCount;i++){
             Producer thread = new Producer(resourceHandle,i);
-            controllers.add(thread);
             threadPool.execute(thread);
         }
         for(int i=0;i<consumerCount;i++){
             Consumer thread = new Consumer(resourceHandle,i);
-            controllers.add(thread);
             threadPool.execute(thread);
         }
 
         Thread.sleep(1000*5);
-        threadPool.shutdown();
-        controllers.forEach(i-> i.stop());
+        threadPool.shutdownNow();
         threadPool.awaitTermination(Integer.MAX_VALUE,TimeUnit.DAYS);
         System.out.println("end!");
     }

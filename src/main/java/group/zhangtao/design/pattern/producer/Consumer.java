@@ -5,8 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
-public class Consumer implements Runnable, StopController {
-    boolean isStop = false;
+public class Consumer implements Runnable {
     private final ResourceHandle resourceHandle;
     private int id;
 
@@ -59,26 +58,22 @@ public class Consumer implements Runnable, StopController {
 
     @Override
     public void run() {
-        while ( !isStop) {
-            try {
+        try {
+            while (!Thread.currentThread().isInterrupted()) {
                 consumerAction();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
             }
+        } catch (InterruptedException e) {
+//            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }finally {
+            System.out.println("consumer " + id + " finish!");
+//            synchronized (resourceHandle.customerMonitor) {
+//                resourceHandle.customerMonitor.notifyAll();
+//            }
+//            synchronized (resourceHandle.producerMonitor) {
+//                resourceHandle.producerMonitor.notifyAll();
+//            }
         }
-        System.out.println("consumer " + id + " finish!");
-        synchronized (resourceHandle.customerMonitor) {
-            resourceHandle.customerMonitor.notifyAll();
-        }
-        synchronized (resourceHandle.producerMonitor) {
-            resourceHandle.producerMonitor.notifyAll();
-        }
-    }
-
-    @Override
-    public void stop() {
-        isStop = true;
     }
 }

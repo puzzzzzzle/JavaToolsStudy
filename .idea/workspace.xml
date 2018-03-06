@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd118d4e-fd91-4007-be69-d3678e46eeed" name="Default" comment="fork/join,producer/consumer,etc..">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/Map/Mian.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/TimeError.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/StopController.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/HttpTest.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/HttpTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/SocketHttp.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/SocketHttp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/productor/Consumer.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Consumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/productor/Main.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/productor/Producer.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Producer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/productor/Product.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/productor/ResourceHandle.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/ResourceHandle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/productor/StopController.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/StopController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Consumer.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Consumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Main.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Producer.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Producer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,21 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/StopController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceHandle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ResourceHandle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/ResourceHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#230#231#0" expanded="true" />
@@ -145,8 +129,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="72" column="60" lean-forward="false" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
+            <state relative-caret-position="475">
+              <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -155,18 +139,18 @@
       <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="290">
+              <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="38">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -1099,7 +1083,7 @@
       <workItem from="1519433123218" duration="12904000" />
       <workItem from="1519547004748" duration="5591000" />
       <workItem from="1520139837565" duration="573000" />
-      <workItem from="1520331509494" duration="7781000" />
+      <workItem from="1520331509494" duration="9054000" />
     </task>
     <servers />
   </component>
@@ -1136,7 +1120,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231740000" />
+    <option name="totallyTimeSpent" value="233013000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1149,6 +1133,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1161,7 +1146,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35209003" sideWeight="0.49092284" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33963692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33963692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32847896" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1598,8 +1583,8 @@
         <state relative-caret-position="3126">
           <caret line="1005" column="74" lean-forward="true" selection-start-line="1005" selection-start-column="74" selection-end-line="1005" selection-end-column="74" />
           <folding>
-            <element signature="e#19296#19297#0" expanded="true" />
-            <element signature="e#19379#19380#0" expanded="true" />
+            <element signature="e#19296#19297#0" expanded="false" />
+            <element signature="e#19379#19380#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1657,19 +1642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/ResourceHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1680,25 +1652,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="290">
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="72" column="60" lean-forward="false" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
+        <state relative-caret-position="475">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="38">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/producer/ResourceHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
