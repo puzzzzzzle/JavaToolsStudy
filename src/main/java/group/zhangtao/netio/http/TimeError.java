@@ -44,6 +44,7 @@ public class TimeError {
                 byteArrayOutputStream.write(bytes,0,length);
                 System.out.println(length);
             }
+            System.out.println("getter finish\n");
             System.out.println(new String(byteArrayOutputStream.toByteArray(),"UTF-8"));
         } catch (UnknownHostException e) {
             e.printStackTrace();

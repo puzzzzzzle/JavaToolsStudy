@@ -7,7 +7,7 @@ public class DoubleLockSafeLazyPattern {
         System.out.println("Safe lazy Pattern init, time:" + System.nanoTime());
     }
 
-    private static DoubleLockSafeLazyPattern instance = null;
+    private volatile static DoubleLockSafeLazyPattern instance = null;
 
 
     public static DoubleLockSafeLazyPattern getInstanceOther() {
