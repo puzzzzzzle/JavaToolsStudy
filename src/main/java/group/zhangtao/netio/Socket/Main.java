@@ -14,12 +14,12 @@ public class Main {
 //        ls[0].add("5");
 //        ls[1].add("8");
 ////        Files;
-//        Main main = new Main();
+//        Length main = new Length();
 ////        main.dataOutput();
 //        main.dataInput();
 //        Class c = main.getClass();
 //        try {
-//            Main o = (Main) c.newInstance();
+//            Length o = (Length) c.newInstance();
 //        } catch (InstantiationException e) {
 //            e.printStackTrace();
 //        } catch (IllegalAccessException e) {

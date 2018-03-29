@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Length {
     public static void main(String[] args) {
 //        String temp ="3\n" +
 //                "0 0 2 2\n" +

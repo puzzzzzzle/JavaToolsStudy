@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd118d4e-fd91-4007-be69-d3678e46eeed" name="Default" comment="fork/join,producer/consumer,etc..">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/RecycleCluster.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Main.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Length.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/Socket/Main.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/Socket/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,21 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeError.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/TimeError.java">
+      <file leaf-file-name="Length.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Length.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="392">
+              <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketHttp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/SocketHttp.java">
+      <file leaf-file-name="RecycleCluster.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/RecycleCluster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="-648">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,14 +107,14 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19962">
-              <caret line="1109" column="49" lean-forward="false" selection-start-line="1109" selection-start-column="49" selection-end-line="1109" selection-end-column="49" />
+            <state relative-caret-position="810">
+              <caret line="45" column="15" lean-forward="false" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -567,8 +569,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/iterator/IteratorStudy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/forkjoin/ForkJoinTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/forkjoin/ForkJoinMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/netty/time/server/TimeServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/netty/time/server/TimerClient.java" />
@@ -615,9 +615,11 @@
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/GuSheng.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/SuShuCalculate.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/CompareString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/JumpFloor.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/MJumpFloor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Length.java" />
+        <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/RecycleCluster.java" />
       </list>
     </option>
   </component>
@@ -822,19 +824,22 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/group/zhangtao/io/zip" />
-      <recent name="$PROJECT_DIR$/TestFile" />
-      <recent name="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me" />
-      <recent name="$PROJECT_DIR$/src/main/java/group/zhangtao" />
-      <recent name="H:\codes\JavaStudy" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestFile" />
       <recent name="H:\codes\JavaStudy\src\main\resources" />
       <recent name="H:\codes\JavaStudy\src\main\java" />
       <recent name="H:\codes\JavaStudy\src\main\java\group\zhangtao\log4j" />
       <recent name="H:\codes\JavaStudy\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="group.zhangtao.alog.me" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/group/zhangtao/io/zip" />
+      <recent name="$PROJECT_DIR$/TestFile" />
+      <recent name="$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me" />
+      <recent name="$PROJECT_DIR$/src/main/java/group/zhangtao" />
+      <recent name="H:\codes\JavaStudy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1164,14 +1169,11 @@
       <workItem from="1522145047595" duration="4763000" />
       <workItem from="1522227960598" duration="3228000" />
       <workItem from="1522318439260" duration="269000" />
-      <workItem from="1522320234283" duration="2000" />
+      <workItem from="1522320234283" duration="292000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IteratorStudy_lambda - 2018.02.24 at 20h 50m 22s.xml">
-      <configuration name="IteratorStudy.lambda" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IteratorStudy_testIterator - 2018.02.24 at 20h 58m 04s.xml">
       <configuration name="IteratorStudy.testIterator" configurationId="JUnit" />
     </history-entry>
@@ -1179,6 +1181,9 @@
       <configuration name="MJumpFloor.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MJumpFloor_test - 2018.03.28 at 17h 36m 21s.xml">
+      <configuration name="MJumpFloor.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MJumpFloor_test - 2018.03.29 at 18h 44m 38s.xml">
       <configuration name="MJumpFloor.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MessageTest_testFloat - 2018.02.24 at 20h 06m 56s.xml">
@@ -1201,7 +1206,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275816000" />
+    <option name="totallyTimeSpent" value="276106000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1218,6 +1223,7 @@
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31832796" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1230,6 +1236,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22901961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32636657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941176" sideWeight="0.49156627" order="3" side_tool="false" content_ui="tabs" />
@@ -1244,10 +1251,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.4972549" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32847896" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31832796" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25019607" sideWeight="0.50843376" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32636657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1351,27 +1356,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/netio/Socket/file/translater/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/io/dir/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/netio/Socket/file/translater/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/TestAlgs4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -1641,14 +1625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/Picture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1696,6 +1672,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="15" lean-forward="false" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/MJumpFloor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1704,17 +1696,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/TimeError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19962">
-          <caret line="1109" column="49" lean-forward="false" selection-start-line="1109" selection-start-column="49" selection-end-line="1109" selection-end-column="49" />
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Length.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="392">
+          <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/SocketHttp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/RecycleCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
