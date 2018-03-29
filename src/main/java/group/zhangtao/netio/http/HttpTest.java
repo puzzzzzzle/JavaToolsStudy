@@ -11,27 +11,30 @@ public class HttpTest {
     private String host = "www.importnew.com/21388.html\r\n";
 
     public static void main(String[] args) {
-        new HttpTest().urlHttp();
-        System.out.println("++++++++++++++++++");
         new HttpTest().socketHttp();
+        System.out.println("++++++++++++++++++");
+
+        new HttpTest().urlHttp();
 
     }
 
     private void socketHttp() {
         try {
             try (
-                    Socket socket = new Socket("www.baidu.com", 80); Scanner scanner = new Scanner(
-                    new InputStreamReader(
-                            new BufferedInputStream(
-                                    socket.getInputStream()
-                            )
-                    )
-            );
+                    Socket socket = new Socket("www.baidu.com", 80);
                     PrintWriter out = new PrintWriter(
                             new BufferedOutputStream(
                                     socket.getOutputStream()
                             )
-                    )) {
+                    );
+                    Scanner scanner = new Scanner(
+                            new InputStreamReader(
+                                    new BufferedInputStream(
+                                            socket.getInputStream()
+                                    )
+                            )
+                    )
+            ) {
                 socket.setSoTimeout(15000);
                 out.println("GET / HTTP/1.1");
                 out.println("Host: www.baidu.com:80");
@@ -42,7 +45,7 @@ public class HttpTest {
                 while (scanner.hasNextLine()) {
                     line = scanner.nextLine();
                     System.out.println(line);
-                    if (line.contains("+ new Date(new Date().getTime() + 10*60*1000).toGMTString();</script>")) {
+                    if (line.contains("</html>")) {
                         break;
                     }
                 }
@@ -70,7 +73,7 @@ public class HttpTest {
                 while (scanner.hasNextLine()) {
                     line = scanner.nextLine();
                     System.out.println(line);
-                    if (line.contains("+ new Date(new Date().getTime() + 10*60*1000).toGMTString();</script>")) {
+                    if (line.contains("</html>")) {
                         break;
                     }
                 }
