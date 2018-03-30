@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd118d4e-fd91-4007-be69-d3678e46eeed" name="Default" comment="Stream Study">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/ParaStream.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/MBigNumber.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/MBigNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/MStream.java" afterPath="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/MStream.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,38 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompareArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/CompareArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/绿色软件/jdk1.8.0_151/src.zip!/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3672">
-              <caret line="233" column="36" lean-forward="false" selection-start-line="233" selection-start-column="36" selection-end-line="233" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Supplier.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/绿色软件/jdk1.8.0_151/src.zip!/java/util/function/Supplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MStream.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/MStream.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,14 +74,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParaStream.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParaStream.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/ParaStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="181">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="846">
+              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/绿色软件/jdk1.8.0_151/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="561" column="21" lean-forward="false" selection-start-line="561" selection-start-column="21" selection-end-line="561" selection-end-column="21" />
+              <folding>
+                <element signature="e#26270#26271#0" expanded="true" />
+                <element signature="e#26326#26327#0" expanded="true" />
+                <element signature="e#27751#27752#0" expanded="true" />
+                <element signature="e#27815#27816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spliterators.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/绿色软件/jdk1.8.0_151/src.zip!/java/util/Spliterators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1219">
+              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,16 +171,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="497" column="19" lean-forward="true" selection-start-line="497" selection-start-column="19" selection-end-line="497" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/绿色软件/jdk1.8.0_151/src.zip!/java/util/function/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -586,7 +586,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/HttpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/design/pattern/single/HungryPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/netio/http/SocketHttp.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/forkjoin/MForkJoinTask.java" />
@@ -637,6 +636,7 @@
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/MStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/MBigNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/ParaStream.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1196,7 +1196,7 @@
       <workItem from="1522394125493" duration="943000" />
       <workItem from="1522395142437" duration="1703000" />
       <workItem from="1522397053182" duration="48000" />
-      <workItem from="1522397153703" duration="1994000" />
+      <workItem from="1522397153703" duration="2257000" />
     </task>
     <task id="LOCAL-00001" summary="Stream Study">
       <created>1522394653049</created>
@@ -1209,9 +1209,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompareArray_test - 2018.03.30 at 14h 47m 15s.xml">
-      <configuration name="CompareArray.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParaStream - 2018.03.30 at 16h 13m 20s.xml">
       <configuration name="ParaStream" configurationId="JUnit" />
     </history-entry>
@@ -1233,6 +1230,9 @@
     <history-entry file="ParaStream_test2 - 2018.03.30 at 16h 24m 08s.xml">
       <configuration name="ParaStream.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParaStream_test2 - 2018.03.30 at 17h 09m 36s.xml">
+      <configuration name="ParaStream.test2" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ParaStream_test3 - 2018.03.30 at 16h 27m 40s.xml">
       <configuration name="ParaStream.test3" configurationId="JUnit" />
     </history-entry>
@@ -1241,7 +1241,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286871000" />
+    <option name="totallyTimeSpent" value="287134000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1273,8 +1273,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28778136" sideWeight="0.4847059" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35209003" sideWeight="0.49092284" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28778136" sideWeight="0.4847059" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35209003" sideWeight="0.49092284" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24862745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1401,27 +1401,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/SET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="138" column="35" lean-forward="false" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/alog/me/Main1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/lock/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1606,14 +1585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1772,13 +1743,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/绿色软件/jdk1.8.0_151/src.zip!/java/util/Spliterators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1219">
+          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/绿色软件/jdk1.8.0_151/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="561" column="21" lean-forward="false" selection-start-line="561" selection-start-column="21" selection-end-line="561" selection-end-column="21" />
+          <folding>
+            <element signature="e#26270#26271#0" expanded="true" />
+            <element signature="e#26326#26327#0" expanded="true" />
+            <element signature="e#27751#27752#0" expanded="true" />
+            <element signature="e#27815#27816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/group/zhangtao/grammer/ParaStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="181">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
