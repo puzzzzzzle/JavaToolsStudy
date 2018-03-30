@@ -25,6 +25,7 @@ public class MStream {
      */
     public static void main(String[] args) {
 //        IntStream.range(0,100).forEach(System.out::println);
+
         System.out.println(Integer.MAX_VALUE);
         Stream.generate(new Supplier<Integer>() {
             int i =1;

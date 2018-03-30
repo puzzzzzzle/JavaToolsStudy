@@ -17,6 +17,6 @@ public class MBigNumber {
                 j = temp;
                 return j;
             }
-        }).forEach(i-> System.out.println(i.toString()));
+        }).parallel().forEach(i-> System.out.println(i.toString()));
     }
 }
