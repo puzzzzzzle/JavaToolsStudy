@@ -23,15 +23,15 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        // Test with Hashtable Object
+        // okHttpTest with Hashtable Object
         hashTableObject = new Hashtable<>();
         test(hashTableObject);
 
-        // Test with synchronizedMap Object
+        // okHttpTest with synchronizedMap Object
         synchronizedMapObject = Collections.synchronizedMap(new HashMap<String, Integer>());
         test(synchronizedMapObject);
 
-        // Test with ConcurrentHashMap Object
+        // okHttpTest with ConcurrentHashMap Object
         concurrentHashMapObject = new ConcurrentHashMap<>();
         test(concurrentHashMapObject);
 
@@ -39,7 +39,7 @@ public class Main {
 
     public static void test(final Map<String, Integer> map) throws InterruptedException {
 
-        System.out.println("Test started for: " + map.getClass());
+        System.out.println("okHttpTest started for: " + map.getClass());
         long averageTime = 0;
         for (int i = 0; i < 5; i++) {
 

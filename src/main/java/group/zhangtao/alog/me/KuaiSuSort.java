@@ -5,7 +5,7 @@ package group.zhangtao.alog.me;
  */
 public class KuaiSuSort {
     public static void main(String[] args){
-        int[] in = {54,45,87,12,95,56,32,15,0,25};
+        int[] in = {54,45,87,12,12,95,56,32,54,15,0,25};
         int count = in.length;
         int low=0;
         int high=count-1;
@@ -18,7 +18,7 @@ public class KuaiSuSort {
         int pos;
         if(low<high){
             pos = QKpass(in,low,high);
-            QKSort(in,low,pos-1);
+            QKSort(in,low,pos);
             QKSort(in,pos+1,high);
         }
     }

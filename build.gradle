@@ -32,6 +32,16 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.ant/ant
     compile group: 'org.apache.ant', name: 'ant', version: '1.9.6'
 
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.10.0'
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+
+    compile group: 'org.slf4j ', name: 'slf4j-log4j12', version: '1.7.25'
+
+    // https://mvnrepository.com/artifact/redis.clients/jedis
+    compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+
 }
 
 

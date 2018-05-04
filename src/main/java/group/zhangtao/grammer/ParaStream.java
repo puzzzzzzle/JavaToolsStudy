@@ -3,9 +3,11 @@ package group.zhangtao.grammer;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.*;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
 import java.util.stream.IntStream;
 
 public class ParaStream {
@@ -35,6 +37,7 @@ public class ParaStream {
         System.out.println(System.nanoTime() - start);
         Assert.assertEquals(a, b);
     }
+
     /*
     parallelStream 优势在于处理耗时的任务
      */
@@ -69,5 +72,55 @@ public class ParaStream {
                 StringBuilder::append).toString();
         System.out.println(System.nanoTime() - start);
         Assert.assertEquals(a, b);
+    }
+
+    @Test
+    public void fileTest() {
+        int max = 10000;
+        Random random = new Random();
+        List<Integer> integers = random.ints().limit(max).sorted().collect(LinkedList<Integer>::new, (list, i) -> list.add(i), LinkedList::addAll);
+        String path = "TestFile/stream";
+        String parallelpath = "TestFile/parallelpath";
+        try (
+                PrintWriter streamWriter = new PrintWriter(
+                        new BufferedOutputStream(
+                                new FileOutputStream(path, false)
+                        )
+                );
+                PrintWriter parallelWriter = new PrintWriter(
+                        new BufferedOutputStream(
+                                new FileOutputStream(parallelpath, false)
+                        )
+                );
+                Scanner scanner = new Scanner(
+                        new BufferedInputStream(
+                                new FileInputStream(path)
+                        )
+                );
+                Scanner scanner1 = new Scanner(
+                        new BufferedInputStream(
+                                new FileInputStream(parallelpath)
+                        )
+                )
+        ) {
+            long start = System.nanoTime();
+            integers.stream().forEach(i -> streamWriter.write(String.valueOf(i) + ","));
+            long streamTime = System.nanoTime() - start;
+            start = System.nanoTime();
+            integers.parallelStream().forEach(i -> parallelWriter.write(String.valueOf(i) + ","));
+            long parallelTime = System.nanoTime() - start;
+            System.out.printf("stream:%d, parallel:%d\ndiff:%d", streamTime, parallelTime, streamTime - parallelTime);
+            StringBuilder stringBuilder = new StringBuilder();
+            StringBuilder stringBuilder1 = new StringBuilder();
+            while (scanner.hasNextLine()) {
+                stringBuilder.append(scanner.nextLine());
+            }
+            while (scanner1.hasNextLine()) {
+                stringBuilder1.append(scanner1.nextLine());
+            }
+            Assert.assertTrue(stringBuilder.toString().equals(stringBuilder1.toString()));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

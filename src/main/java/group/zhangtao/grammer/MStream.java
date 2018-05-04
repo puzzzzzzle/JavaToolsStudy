@@ -27,6 +27,8 @@ public class MStream {
 //        IntStream.range(0,100).forEach(System.out::println);
 
         System.out.println(Integer.MAX_VALUE);
+        //            if(i==null)
+//
         Stream.generate(new Supplier<Integer>() {
             int i =1;
             int j= 1;
@@ -35,19 +37,8 @@ public class MStream {
                 int temp = i+j;
                 i = j;
                 j = temp;
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                if(j<0)
-                    return null;
                 return j;
             }
-        }).forEach(i->{
-//            if(i==null)
-//
-            System.out.println(i);
-        });
+        }).forEach(System.out::println);
     }
 }

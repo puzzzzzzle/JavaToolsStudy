@@ -14,7 +14,7 @@ public class Test {
     public static void main(String[] args) {
         logger.error("hello log4j2");
         logger.debug("debug");
-        logger.debug("Test tag");
+        logger.debug("okHttpTest tag");
         try {
             byte b[] = new byte[100];
             Arrays.asList(b).forEach(n -> System.out.println(n));
